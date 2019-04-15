@@ -1,0 +1,132 @@
+* {
+box-sizing: border-box;
+}
+.row:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.row { display: inline-block; }
+* html .row { height: 1%; }
+.row { display: block; }
+
+
+body {
+margin: 0;
+padding: 0;
+font-family: 'Montserrat';
+}
+#block {
+width: 200vh;
+height: 50px;
+background: blue;
+float: left;
+}
+#one {
+text-align: center;
+color: white;
+font-size: 12px;
+height: 20vh;
+width: 100vh;
+display: table;
+position: relativ
+}
+
+#HEAD {
+display: table-cell;
+vertical-align: middle;
+font-weight: 900;
+}
+#inter {
+font-size: 4px;
+color: white;
+width: 65px;
+height: 30px;
+float: left;
+padding-top: 12px;
+border: solid red 1px hidden;
+background: red hidden;
+text-align: center;
+}
+#static {
+  font-size: 4px;
+  color: white;
+  width: 65px;
+  height: 30px;
+  float: left;
+  padding-top: 12px;
+  border: solid red 1px hidden;
+  background: red hidden;
+  text-align: center;
+}
+.menu {
+margin-left: 200px;
+height: 30px;
+min-width: 40px;
+margin-right:
+}
+
+.chsH {
+font-size: 7px;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.CHS_description {
+font-size: 7px;
+text-align:justify;
+padding-left: 30px;
+padding-right: 30px;
+}
+#image_auto {
+width: 375px;
+height: 100px;
+margin-top: 30px;
+background-image: url("https://images.unsplash.com/photo-1471479917193-f00955256257?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2048&q=80");
+background-size: cover;
+background-attachment: fixed;
+color: white;
+font-size: 12px;
+text-align: center;
+padding-top: 40px;
+font-weight: 500;
+}
+#interactive_map_chs {
+font-size: 3px;
+margin-top: 30px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 720px) {
+  #block {
+  width: 375px;
+  height: 30px;
+  background: #1a1e23;
+  padding-left: 30px;
+
+
+  }
+  #headertext {
+  color: white;
+  font-size: 5px;
+  text-align: left;
+  width: 62px;
+  float: left;
+  padding-top: 8px;
+  }
+  #one {
+  text-align: center;
+  color: white;
+  font-size: 6px;
+  width: 375px;
+  }
+  #HEAD {
+  line-height: 20px;
+  }
