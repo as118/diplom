@@ -18,7 +18,7 @@ body {
 margin: 0;
 padding: 0;
 font-family: 'Montserrat';
-background: #0f1518;
+background: #0d1018;
 }
 #block {
 width: 200vh;
@@ -101,6 +101,16 @@ border-radius: px;
 border: solid 2px white;
 margin-left: 120px;
 }
+#map_back {
+width: 100%;
+height: 110vh;
+background: url(../img/map_background.png);
+background-size: cover;
+z-index: -1;
+margin-top: -240px;
+background-attachment:local;
+position: absolute;
+}
 .chsH {
 font-size: 20px;
 text-align: center;
@@ -116,6 +126,7 @@ padding-right: 300px;
 line-height: 35px;
 margin-bottom: 100px;
 color: white;
+
 }
 
 }
@@ -271,14 +282,15 @@ border: solid white 4px;
 }
 .ipad {
 float: left;
-height: 78.6vh;
+height: 78vh;
 width: 108.5vh;
 background-image: url('https://pp.userapi.com/c855728/v855728256/2e515/YYJXGjaPZLM.jpg');
-background-size: contain;
+background-size:contain;
 margin-top: 100px;
 margin-left: -140px;
-border-radius: 45px;
+border-radius: 58px;
 margin-bottom: 100px;
+background-attachment: inherit;
 }
 .fisrt_map {
 float: left;
@@ -307,15 +319,18 @@ line-height: 40px;
   font-size: 14px;
   padding: 8px;
   font-weight: bold;
-  transition: 0.3s;
+  transition: 0.6s;
   cursor: pointer;
 }
 .button:hover {
   width: 100%;
+    border-radius: 50px;
 }
 .button:active {
-  background: silver;
+  background: #af00ff70;
   transition: 0.1s;
+  color: white;
+  border-radius: 50px;
 }
 .map_one {
   background-image: url('https://habrastorage.org/files/639/a5a/373/639a5a37361e44929dea30edc8dde726.jpg');
@@ -349,6 +364,7 @@ line-height: 40px;
   background-size: cover;
   margin: 0 auto;
 }
+
 .sw_des {
 width: 100%;
 height: 80px;
